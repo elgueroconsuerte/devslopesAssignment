@@ -2,6 +2,16 @@
 // BEFORE YOU START: please read the /exercises-info/e1.md file.
 // NAMED FUNCTION SYNTAX: is described in /exercises-info/e4.md file.
 
+
+//** 
+//export const PEOPLE = [
+//{ id: 1, name: 'Melisa', age: 23 },
+//{ id: 2, name: 'John', age: 43 },
+//{ id: 3, name: 'Michael', age: 54 },
+//]
+
+
+
 /**
  * ====================================================
  * Create a function to work as follows:
@@ -15,7 +25,10 @@
 
 // Your code goes here
 
-
+var NAMED = 'Hello World!'
+function logMessage (NAMED) {  
+  console.log('Hello, World!') //cuerpo de la función, lo que va a hacer la función, en este caso imprimir en consola el mensaje Hello, World!
+}
 
 
 /**
@@ -30,6 +43,11 @@
 */
 
 // Your code goes here...
+var NAMED = 'My message'
+
+function logMyMessage (NAMED) {
+  console.log(NAMED)
+}
 
 
 
@@ -46,6 +64,11 @@
 
 // Your code goes here...
 
+var NAMED = 'Andrey'
+
+function logMessageWithMyName (NAMED) {
+  console.log('My name is ' + NAMED + '!')
+}
 
 
 
@@ -61,8 +84,11 @@
 */
 
 // Your code goes here...
-
-
+var AGE = 18
+var NAMED = 'ernesto'
+function logMyInfo (NAMED , AGE) {
+  console.log('My name is ' + NAMED + '. I am ' + AGE + ' years old!')
+}
 
 
 // === TEST YOURSELF ===
